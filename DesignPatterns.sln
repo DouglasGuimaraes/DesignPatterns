@@ -9,9 +9,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{EAC51DF6-52B0-4C04-B347-373427DED0F9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory Method", "Factory Method", "{7ACECE7B-6B7B-4442-996A-05279662BD01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{99873D84-0CB7-454B-9F37-DC58CC306A02}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99873D84-0CB7-454B-9F37-DC58CC306A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99873D84-0CB7-454B-9F37-DC58CC306A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99873D84-0CB7-454B-9F37-DC58CC306A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99873D84-0CB7-454B-9F37-DC58CC306A02}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7ACECE7B-6B7B-4442-996A-05279662BD01} = {1E45DC66-05A1-44CD-98D1-09C9F63B2325}
+		{99873D84-0CB7-454B-9F37-DC58CC306A02} = {7ACECE7B-6B7B-4442-996A-05279662BD01}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F09A274-51EC-46B6-AF27-DACAA1E7B42F}
